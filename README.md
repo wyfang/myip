@@ -33,10 +33,6 @@ docker run -d -p 18966:18966 \
 
 服务默认监听 `18966`。IP 地理位置需要配置 MaxMind GeoLite2；使用真实域名时必须设置 `ALLOWED_DOMAINS`，否则非 localhost 请求会返回 `403`。完整环境变量见[上游配置文档](https://docs.ipcheck.ing/developer/reference/zh/environment-variables)。
 
-## 来源与许可
+## 版权说明
 
-本仓库是 [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) 的 Fork，依据 [MIT License](./LICENSE) 发布。部署、贡献与安全说明以当前上游文档为准。
-
-上游版权通知为 Copyright © 2026 Jason Ng。该版权与 MIT 条款必须保留；Fork 关系不会把上游版权转移给仓库所有者。
-
-完整归属与适用范围见 [NOTICE](./NOTICE) 与 [LICENSE_SCOPE.md](./LICENSE_SCOPE.md)。
+本项目是 [jason5ng32/MyIP](https://github.com/jason5ng32/MyIP) 的 Fork，依据 [MIT License](./LICENSE) 发布。上游版权归 Jason Ng 及其贡献者所有；个人品牌和素材不在许可范围内。
